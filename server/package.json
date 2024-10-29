@@ -13,7 +13,8 @@
     "migrate:rollback": "knex migrate:rollback",
     "seed": "knex seed:run",
     "seed:make": "knex seed:make",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "migrate:up": "knex migrate:up 20241011211452_create_tables.js"
   },
   "keywords": [],
   "author": "",
@@ -24,7 +25,7 @@
     "cookie-parser": "^1.4.6",
     "cookie-session": "^2.0.0",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2",
+    "express": "^4.21.1",
     "express-session": "^1.17.3",
     "knex": "^2.4.2",
     "pg": "^8.13.1"
